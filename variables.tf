@@ -7,6 +7,10 @@ variable "secret_key" {
     sensitive  = true
 }
 
+variable "environment" {
+   type   =string
+}
+
 variable "instance-ami" {
   description = "The AMI (Amazon Machine Image) that identifies the instance"
   type        = string

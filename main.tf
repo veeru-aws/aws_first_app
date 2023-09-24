@@ -17,7 +17,7 @@ resource "aws_instance" "instance" {
   subnet_id                   = "${aws_subnet.subnet.id}"
 
   tags = {
-    Name = "${var.instance-tag-name}"
+    Name = "${var.instance-tag-name}-${var.environment}"
   }
 }
 
