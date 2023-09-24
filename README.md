@@ -8,3 +8,6 @@ Terraform work space:
 https://app.terraform.io/app/veeru_aws/workspaces/AWS_FIRST_APP
 
 Note: access key and Secret key saved as variable in terraform
+
+![Uploading image.png…]()
+
